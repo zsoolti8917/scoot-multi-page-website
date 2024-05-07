@@ -39,9 +39,9 @@ export const FAQBlock = () => {
   return (
     <section className='mb-12'>
         <div className='max-w-[1110px] mx-auto px-6 xl:px-0'>
-            <h3 className='text-center text-TH2 pb-6'>FAQs</h3>
+            <h2 className='text-center text-TH2 pb-6 font-bold text-primary-800'>FAQs</h2>
             <div className='flex xl:justify-between pb-12 flex-col xl:flex-row'>
-                <h4 className='text-TH3 text-center pb-6'>How it works</h4>
+                <h3 className='text-TH3 text-center pb-6 font-bold text-primary-800'>How it works</h3>
                 <div className='max-w-[730px] w-full flex flex-col gap-6 mx-auto xl:mx-0'>
                     {howItWorks.map((item, index) => (
                         <FAQCard key={index} question={item.question} answer={item.answer}/>
@@ -50,7 +50,7 @@ export const FAQBlock = () => {
             </div>
 
             <div className='flex xl:justify-between flex-col xl:flex-row'>
-                <h4 className='text-TH3 text-center pb-6'>Safe driving</h4>
+                <h3 className='text-TH3 text-center pb-6 font-bold text-primary-800'>Safe driving</h3>
                 <div className='max-w-[730px] w-full flex flex-col gap-6 mx-auto xl:mx-0'>
                     {safeDriving.map((item, index) => (
                         <FAQCard key={index} question={item.question} answer={item.answer}/>

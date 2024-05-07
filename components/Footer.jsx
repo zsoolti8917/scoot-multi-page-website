@@ -17,11 +17,15 @@ const Footer = () => {
                                 <li>
                                     <Link href="/about" className='hover:text-primary-600'>About</Link>                                  
                                     </li>
+                                    <li>
+                                <Link href="/careers" className='hover:text-primary-600'>Careers</Link>                                    
+                                    </li>
                                 <li>
                                 <Link href="/locations" className='hover:text-primary-600'>Locations</Link>                                 
                                     </li>
-                                <li>
-                                <Link href="/careers" className='hover:text-primary-600'>Careers</Link>                                    
+                                
+                                    <li>
+                                <Link href="/contact" className='hover:text-primary-600'>Contact</Link>                                    
                                     </li>
                             </ul>
             </nav>

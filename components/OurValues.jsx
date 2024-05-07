@@ -30,7 +30,7 @@ const OurValues = (props) => {
   return (
     <section className='max-w-[1440px] mx-auto mb-14'>
         <div className='max-w-[1110px] mx-auto'>
-        <h3 className='text-center text-TH2 pb-8'>{props.title}</h3>
+        <h2 className='text-center text-TH2 pb-12 font-bold text-primary-800'>{props.title}</h2>
         <div className='flex flex-col text-center px-6 gap-14 max-w-[450px] mx-auto xl:flex-row xl:max-w-[1110px] xl:px-0'>
 
             {content.map((item, index) => (

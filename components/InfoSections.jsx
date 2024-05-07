@@ -13,16 +13,16 @@ const InfoSections = () => {
             <div className='flex flex-col px-6 gap-6 max-w-[600px] mx-auto md:flex-row md:gap-24 lg:flex-col lg:gap-10 xl:px-0'>
                 <Image src={PhoneImage} alt='Phone icon' className='self-center z-20 lg:self-start' />
                 <div>
-                <h2 className='text-TH4 leading-TH4 tracking-TH4 pb-6'>Locate with app</h2>
-                <p className='text-THBODY leading-THBODY tracking-THBODY'>Use the app to find the nearest scooter to you. We are continuously placing scooters in the areas with most demand, so one should never be too far away. </p>
+                <h2 className='text-TH4 leading-TH4 tracking-TH4 pb-6 font-bold text-primary-800'>Locate with app</h2>
+                <p className='text-THBODY leading-THBODY tracking-THBODY text-primary-800'>Use the app to find the nearest scooter to you. We are continuously placing scooters in the areas with most demand, so one should never be too far away. </p>
                 </div>
             </div>
 
             <div className='flex flex-col px-6 gap-6 max-w-[600px] mx-auto md:flex-row md:gap-24 lg:flex-col lg:gap-10 lg:px-0'>
             <Image src={ScooterImage} alt='Scooter icon' className='self-center z-20 lg:self-start'/>
             <div>
-            <h2 className='text-TH4 leading-TH4 tracking-TH4 pb-6'>Pick your scooter</h2>
-                <p className='text-THBODY leading-THBODY tracking-THBODY'>We show the most important info for the scooters closest to you. So you know how much charge they have left and can see roughly how much it will cost.</p>
+            <h2 className='text-TH4 leading-TH4 tracking-TH4 pb-6 font-bold text-primary-800'>Pick your scooter</h2>
+                <p className='text-THBODY leading-THBODY tracking-THBODY text-primary-800'>We show the most important info for the scooters closest to you. So you know how much charge they have left and can see roughly how much it will cost.</p>
                 </div>
             </div>
                 
@@ -30,8 +30,8 @@ const InfoSections = () => {
             <div className='flex flex-col px-6 gap-6 max-w-[600px] mx-auto md:flex-row md:gap-24 lg:flex-col lg:gap-10 lg:px-0'>
                 <Image src={ScooterAltImage} alt='Riding scooter icon' className='self-center z-20 lg:self-start'/>
                 <div>
-                <h2 className='text-TH4 leading-TH4 tracking-TH4 pb-6'>Enjoy the ride</h2>
-                <p className='text-THBODY leading-THBODY tracking-THBODY'>Scan the QR code and the bike will unlock. Retract the cable lock, put on a helmet, and you’re off! Always lock bikes away from walkways and accessibility ramps.</p>
+                <h2 className='text-TH4 leading-TH4 tracking-TH4 pb-6 font-bold text-primary-800'>Enjoy the ride</h2>
+                <p className='text-THBODY leading-THBODY tracking-THBODY text-primary-800'>Scan the QR code and the bike will unlock. Retract the cable lock, put on a helmet, and you’re off! Always lock bikes away from walkways and accessibility ramps.</p>
                 </div>
             </div>
         </div>

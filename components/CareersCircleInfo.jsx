@@ -10,16 +10,16 @@ const CareersCircleInfo = () => {
         <div className="max-w-[1110px] mx-auto pb-28 px-6 text-center xl:px-0 xl:text-left">
           <div className="grid grid-flow-row gap-8 justify-center xl:grid-flow-col xl:justify-between">
             <div className="max-w-[550px] xl:max-w-[445px] self-center z-50">
-              <h3 className="pb-8 text-[32px] font-extrabold leading-10 tracking-tight md:text-TH2 md:leading-TH2 md:tracking-TH2">
+              <h2 className="pb-8 text-[32px] font-extrabold leading-10 text-primary-800 tracking-tight md:text-TH2 md:leading-TH2 md:tracking-TH2">
                 Easy to use riding telemetry
-              </h3>
-              <p className="pb-8">
+              </h2>
+              <p className="pb-8 text-THBODY leading-THBODY  text-primary-800">
                 The Scoot app is available with riding telemetry. This means it
                 can show you your average speed, how long you have been using
                 the scooter, your traveling distance, and many more things all
                 in an easy to use app.
               </p>
-              <Link href="/locations" className='ml-auto z-50'><button className='z-50 px-6 py-2 bg-primary-600 text-white hover:bg-transparent border-2 border-transparent hover:border-primary-600 hover:text-primary-600'>Get Scootin</button> </Link>
+              <Link href="/locations" className='ml-auto z-50 font-bold'><button className='z-50 px-6 py-2 bg-primary-600 text-white hover:bg-transparent border-2 border-transparent hover:border-primary-600 hover:text-primary-600'>Get Scootin</button> </Link>
             </div>
 
             <Image

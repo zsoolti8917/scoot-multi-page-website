@@ -59,7 +59,7 @@ const NavBar = () => {
               <li key={link.name} className="md:my-0 my-7 pb-6 md:pb-0">
                 <Link
                   href={link.link}
-                  className=" hover:text-primary-600 duration-500"
+                  className=" hover:text-primary-600 duration-500 text-primary-700 font-bold"
                   onClick={handleCloseMenu}
                 >
                   {link.name}
@@ -67,7 +67,7 @@ const NavBar = () => {
               </li>
             ))}
             <Link href="/locations" className="hidden md:block ml-auto">
-              <button className=" px-6 py-2 bg-primary-600 text-white hover:bg-transparent border-2 border-transparent hover:border-primary-600 hover:text-primary-600 ">
+              <button className=" px-6 py-2 bg-primary-600 text-white hover:bg-transparent border-2 border-transparent hover:border-primary-600 hover:text-primary-600 font-bold">
                 Get Scootin
               </button>{" "}
             </Link>

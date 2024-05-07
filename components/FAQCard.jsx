@@ -16,8 +16,8 @@ const FAQCard = (props) => {
   return (
 
     <div className='px-8 py-6 bg-secondary-200 relative ' onClick={toggleVisibility}>
-        <h4 className='text-TH4 pr-6'>{props.question}</h4>
-        {isVisible && <p className='pt-6'>{props.answer}</p>}
+        <h4 className='text-TH4 pr-6 font-bold text-primary-800'>{props.question}</h4>
+        {isVisible && <p className='pt-6 text-THBODY leading-THBODY text-primary-800'>{props.answer}</p>}
         <siv className='absolute top-8 right-10' >
             <Image src={Chevron} alt='Chevron' className={`width-[16px] height-[8px] w-full h-full ${isVisible ? 'rotate-180' : ''}`}/>
         </siv>

@@ -1,5 +1,8 @@
+'use client';
+
 import React from 'react'
 import Link from 'next/link'
+
 
 const Header = () => {
   return (
@@ -12,15 +15,15 @@ const Header = () => {
 
             <div className='z-50 max-w-[1110px] xl:w-full mx-auto px-6 lg:px-0 -mt-10 md:mt-0 '>
             <div className='max-w-[500px] flex flex-col text-center xl:text-left'>
-            <h1 className='md:text-TH1 leading-TH1 tracking-TH1 xl:pb-10 pb-6 text-5xl'>Scooter sharing made simple</h1>
+            <h1 className='md:text-TH1 leading-TH1 tracking-TH1 xl:pb-10 pb-6 text-5xl xl:font-bold'>Scooter sharing made simple</h1>
             <div className='xl:pl-16'>
             <p className='text-THBODY leading-THBODY tracking-THBODY md:pb-10 pb-6'>Scoot takes the hassle out of urban mobility. Our bikes are placed in convenient locations in each of our cities. Use our app to locate the nearest bike, unlock it with a tap, and you’re away!</p>
-            <Link href="/locations" className='z-60 self-center'><button className='z-50 px-6 py-2 bg-primary-600 text-white hover:bg-transparent border-2 border-transparent hover:border-primary-600 hover:text-primary-600'>Get Scootin</button> </Link>
+            <Link href="/locations" className='z-60 self-center'><button  className='z-50 px-6 py-2 bg-primary-600 text-white hover:bg-transparent border-2 border-transparent hover:border-primary-600 hover:text-primary-600 font-bold'>Get Scootin</button> </Link>
             </div>
             </div>
             </div>
           
-            
+      
             
         </div>
     </section>

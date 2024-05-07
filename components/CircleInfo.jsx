@@ -12,16 +12,16 @@ const CircleInfo = () => {
         <div className="max-w-[1110px] mx-auto pb-28 px-6 text-center xl:px-0 xl:text-left  ">
           <div className="grid grid-flow-row gap-8 justify-center xl:grid-flow-col xl:justify-between">
             <div className="max-w-[550px] xl:max-w-[445px] self-center z-50">
-              <h3 className="pb-8 text-[32px] font-extrabold leading-10 tracking-tight md:text-TH2 md:leading-TH2 md:tracking-TH2">
+              <h2 className="pb-8 text-[32px] font-extrabold leading-10 tracking-tight md:text-TH2 md:leading-TH2 md:tracking-TH2 text-primary-800">
                 Easy to use riding telemetry
-              </h3>
-              <p className="pb-8">
+              </h2>
+              <p className="pb-8 text-THBODY leading-THBODY  text-primary-800">
                 The Scoot app is available with riding telemetry. This means it
                 can show you your average speed, how long you have been using
                 the scooter, your traveling distance, and many more things all
                 in an easy to use app.
               </p>
-              <Link href="/locations" className='ml-auto z-50'><button className='z-50 px-6 py-2 bg-primary-600 text-white hover:bg-transparent border-2 border-transparent hover:border-primary-600 hover:text-primary-600'>Get Scootin</button> </Link>
+              <Link href="/locations" className='ml-auto z-50'><button className='z-50 px-6 py-2 bg-primary-600 text-white hover:bg-transparent border-2 border-transparent hover:border-primary-600 hover:text-primary-600 font-bold'>Get Scootin</button> </Link>
             </div>
 
             <Image
@@ -40,12 +40,12 @@ const CircleInfo = () => {
         <div className="max-w-[1110px] mx-auto pb-28 px-6 text-center xl:px-0 xl:text-left">
           <div className="grid grid-flow-row gap-8 justify-center xl:grid-flow-col xl:justify-between">
             <div className="max-w-[550px] xl:max-w-[445px] self-center z-50">
-              <h3 className="pb-8 text-[32px] font-extrabold leading-10 tracking-tight md:text-TH2 md:leading-TH2 md:tracking-TH2">
-              Coming to a city near you              </h3>
-              <p className="pb-8">
+              <h2 className="pb-8 text-[32px] font-extrabold leading-10 tracking-tight md:text-TH2 md:leading-TH2 md:tracking-TH2 text-primary-800">
+              Coming to a city near you              </h2>
+              <p className="pb-8 text-THBODY leading-THBODY  text-primary-800">
               Scoot is available in 4 major cities so far. We’re expanding rapidly, so be sure to let us know if you want to see us in your hometown. We’re aiming to let our scooters loose on 23 cities over the coming year.
               </p>
-              <Link href="/locations" className='ml-auto  z-50'><button className=' z-50 px-6 py-2 bg-primary-600 text-white hover:bg-transparent border-2 border-transparent hover:border-primary-600 hover:text-primary-600'>Get Scootin</button> </Link>
+              <Link href="/locations" className='ml-auto  z-50'><button className=' z-50 px-6 py-2 bg-primary-600 text-white hover:bg-transparent border-2 border-transparent hover:border-primary-600 hover:text-primary-600 font-bold'>Get Scootin</button> </Link>
             </div>
 
             <Image
@@ -64,12 +64,12 @@ const CircleInfo = () => {
         <div className="max-w-[1110px] mx-auto pb-28 px-6 text-center xl:px-0 xl:text-left">
           <div className="grid grid-flow-row gap-8 justify-center xl:grid-flow-col xl:justify-between">
             <div className="max-w-[550px] xl:max-w-[445px] self-center z-50">
-              <h3 className="pb-8 text-[32px] font-extrabold leading-10 tracking-tight md:text-TH2 md:leading-TH2 md:tracking-TH2">
-              Zero hassle payments              </h3>
-              <p className="pb-8">
+              <h2 className="pb-8 text-[32px] font-extrabold leading-10 tracking-tight md:text-TH2 md:leading-TH2 md:tracking-TH2 text-primary-800">
+              Zero hassle payments              </h2>
+              <p className="pb-8 text-THBODY leading-THBODY  text-primary-800">
               Our payment is as easy as one two three. We accept most credit cards and debit cards. You can also link your PayPal account inside the app. Need to pay later? No worries! You can defer payment for up to a month.
               </p>
-              <Link href="/locations" className='ml-auto z-50'><button className=' z-50 px-6 py-2 bg-primary-600 text-white hover:bg-transparent border-2 border-transparent hover:border-primary-600 hover:text-primary-600 '>Get Scootin</button> </Link>
+              <Link href="/locations" className='ml-auto z-50'><button className=' z-50 px-6 py-2 bg-primary-600 text-white hover:bg-transparent border-2 border-transparent hover:border-primary-600 hover:text-primary-600 font-bold'>Get Scootin</button> </Link>
             </div>
 
             <Image

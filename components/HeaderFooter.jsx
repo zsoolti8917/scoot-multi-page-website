@@ -5,11 +5,11 @@ import GooglePlay from '../public/static/icons/google-play.svg'
 
 const HeaderFooter = () => {
   return (
-    <section className='bg-primary-800 py-20 relative overflow-hidden'>
+    <section className='bg-primary-800 py-20 relative overflow-hidden z-40'>
         <div className='max-w-[1110px] mx-auto flex justify-between text-white flex-col text-center px-6 xl:px-0 gap-10 items-center xl:text-left xl:flex-row xl:justify-between'>
-            <h3 className='md:text-TH2 leading-TH2 text-TH3 text-bold max-w-[425px]'>Sign up and Scoot off today</h3>
+            <h2 className='md:text-TH2 leading-TH2 text-TH3 font-bold max-w-[425px]'>Sign up and Scoot off today</h2>
 
-            <div className='flex gap-4 items-center justify-center'>
+            <div className='flex gap-4 items-center justify-center z-50'>
                 <a className='cursor-pointer'><Image src={AppleStore} alt='Apple store' className='w-[159px] h-[56px]' /></a>
                 <a className='cursor-pointer'><Image src={GooglePlay} alt='Google play' className='w-[159px] h-[56px]'/></a>
             </div>
